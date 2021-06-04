@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         redirect en-us MS Docs
 // @namespace    none
-// @version      0.1
+// @version      0.1.1
 // @description  try to take over the world!
-// @author       shnarita
+// @author       nagakei05
 // @match        https://docs.microsoft.com/*
 // @grant        none
 // @updateURL    https://github.com/nagakei05/redirect-en-us-msdocs/raw/master/main.user.js
