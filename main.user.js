@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         redirect en-us MS Docs
 // @namespace    none
-// @version      0.1.1
+// @version      0.1.2
 // @description  try to take over the world!
 // @author       nagakei05
 // @match        https://docs.microsoft.com/*
