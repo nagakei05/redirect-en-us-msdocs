@@ -21,7 +21,7 @@
     if (e.keyCode == 220) {
       // "\" キーを押下で en-us/ja-jp 間を切り替え
       const currentUrl = location.href; // 現在のページのURLを取得
-      const nextPage = currentUrl; // nextpage 初期化
+      var nextPage = currentUrl; // nextpage 初期化
       if (currentUrl.match(msDocsUrlReg)) {
         if (currentUrl.match(msDocsJAJPUrlReg)) {
           nextPage = currentUrl.replace(msDocsUrlReg, "https://docs.microsoft.com/en-us/$1"); // マッチさせた文字列以外を置換
